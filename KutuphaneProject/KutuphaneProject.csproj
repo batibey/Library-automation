@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A11669D3-DC71-45F3-A040-2B1DCE18A99A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KutuphaneProject</RootNamespace>
+    <AssemblyName>KutuphaneProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmErkekDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmErkekDetay.Designer.cs">
+      <DependentUpon>FrmErkekDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmErkekKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmErkekKayit.Designer.cs">
+      <DependentUpon>FrmErkekKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmErkekKayitGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmErkekKayitGuncelle.Designer.cs">
+      <DependentUpon>FrmErkekKayitGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKadinDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKadinDetay.Designer.cs">
+      <DependentUpon>FrmKadinDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKadinGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKadinGiris.Designer.cs">
+      <DependentUpon>FrmKadinGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKadinKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKadinKayit.Designer.cs">
+      <DependentUpon>FrmKadinKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKadinKayitGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKadinKayitGuncelle.Designer.cs">
+      <DependentUpon>FrmKadinKayitGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKitapEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKitapEkle.Designer.cs">
+      <DependentUpon>FrmKitapEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKitapGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKitapGuncelle.Designer.cs">
+      <DependentUpon>FrmKitapGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKitapSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKitapSil.Designer.cs">
+      <DependentUpon>FrmKitapSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersonelDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonelDetay.Designer.cs">
+      <DependentUpon>FrmPersonelDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersonelGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonelGiris.Designer.cs">
+      <DependentUpon>FrmPersonelGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPersonelKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonelKayit.Designer.cs">
+      <DependentUpon>FrmPersonelKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUyeOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUyeOl.Designer.cs">
+      <DependentUpon>FrmUyeOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sqlbaglantisi.cs" />
+    <Compile Include="FrmGirisler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGirisler.Designer.cs">
+      <DependentUpon>FrmGirisler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmErkekGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmErkekGiris.Designer.cs">
+      <DependentUpon>FrmErkekGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmErkekKayit.resx">
+      <DependentUpon>FrmErkekKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmErkekKayitGuncelle.resx">
+      <DependentUpon>FrmErkekKayitGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGirisler.resx">
+      <DependentUpon>FrmGirisler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmErkekDetay.resx">
+      <DependentUpon>FrmErkekDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmErkekGiris.resx">
+      <DependentUpon>FrmErkekGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKadinDetay.resx">
+      <DependentUpon>FrmKadinDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKadinGiris.resx">
+      <DependentUpon>FrmKadinGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKadinKayit.resx">
+      <DependentUpon>FrmKadinKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKadinKayitGuncelle.resx">
+      <DependentUpon>FrmKadinKayitGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKitapEkle.resx">
+      <DependentUpon>FrmKitapEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKitapGuncelle.resx">
+      <DependentUpon>FrmKitapGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKitapSil.resx">
+      <DependentUpon>FrmKitapSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonelDetay.resx">
+      <DependentUpon>FrmPersonelDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonelGiris.resx">
+      <DependentUpon>FrmPersonelGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonelKayit.resx">
+      <DependentUpon>FrmPersonelKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUyeOl.resx">
+      <DependentUpon>FrmUyeOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
