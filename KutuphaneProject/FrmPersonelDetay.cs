@@ -100,7 +100,13 @@ namespace KutuphaneProject
 
         private void groupBox2_Enter(object sender, EventArgs e)
         {
+            //Color c1 = Color.FromArgb(32, 178, 170);
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmTedarikci fr = new FrmTedarikci();
+            fr.Show();
         }
     }
 }

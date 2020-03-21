@@ -50,6 +50,7 @@
             this.BtnErkekKayitGuncelle = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -197,7 +198,7 @@
             this.BtnKitapIslemleri.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnKitapIslemleri.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnKitapIslemleri.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKitapIslemleri.Location = new System.Drawing.Point(748, 232);
+            this.BtnKitapIslemleri.Location = new System.Drawing.Point(748, 145);
             this.BtnKitapIslemleri.Name = "BtnKitapIslemleri";
             this.BtnKitapIslemleri.Size = new System.Drawing.Size(117, 55);
             this.BtnKitapIslemleri.TabIndex = 9;
@@ -210,7 +211,7 @@
             this.BtnKitapEkle.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnKitapEkle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnKitapEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKitapEkle.Location = new System.Drawing.Point(748, 314);
+            this.BtnKitapEkle.Location = new System.Drawing.Point(748, 227);
             this.BtnKitapEkle.Name = "BtnKitapEkle";
             this.BtnKitapEkle.Size = new System.Drawing.Size(117, 55);
             this.BtnKitapEkle.TabIndex = 10;
@@ -223,7 +224,7 @@
             this.BtnKitapSil.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnKitapSil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnKitapSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKitapSil.Location = new System.Drawing.Point(748, 392);
+            this.BtnKitapSil.Location = new System.Drawing.Point(748, 305);
             this.BtnKitapSil.Name = "BtnKitapSil";
             this.BtnKitapSil.Size = new System.Drawing.Size(117, 55);
             this.BtnKitapSil.TabIndex = 11;
@@ -310,12 +311,25 @@
             this.groupBox2.Text = "Kadın Üye İşlemleri";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Moccasin;
+            this.button1.Font = new System.Drawing.Font("Miriam Libre", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(749, 428);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 54);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Tedarikçiler";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmPersonelDetay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(1304, 606);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BtnKitapSil);
@@ -367,5 +381,6 @@
         private System.Windows.Forms.Button BtnErkekKayitGuncelle;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button1;
     }
 }
