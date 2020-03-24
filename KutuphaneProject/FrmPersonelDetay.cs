@@ -108,5 +108,17 @@ namespace KutuphaneProject
             FrmTedarikci fr = new FrmTedarikci();
             fr.Show();
         }
+
+        private void BtnOduncIslemleri_Click(object sender, EventArgs e)
+        {
+            FrmOduncIslemleri fr = new FrmOduncIslemleri();
+            fr.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmOduncKayitlari fr = new FrmOduncKayitlari();
+            fr.Show();
+        }
     }
 }

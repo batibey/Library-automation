@@ -51,6 +51,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.BtnOduncIslemleri = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -211,7 +213,7 @@
             this.BtnKitapEkle.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnKitapEkle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnKitapEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKitapEkle.Location = new System.Drawing.Point(748, 227);
+            this.BtnKitapEkle.Location = new System.Drawing.Point(748, 217);
             this.BtnKitapEkle.Name = "BtnKitapEkle";
             this.BtnKitapEkle.Size = new System.Drawing.Size(117, 55);
             this.BtnKitapEkle.TabIndex = 10;
@@ -224,7 +226,7 @@
             this.BtnKitapSil.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BtnKitapSil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnKitapSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKitapSil.Location = new System.Drawing.Point(748, 305);
+            this.BtnKitapSil.Location = new System.Drawing.Point(748, 288);
             this.BtnKitapSil.Name = "BtnKitapSil";
             this.BtnKitapSil.Size = new System.Drawing.Size(117, 55);
             this.BtnKitapSil.TabIndex = 11;
@@ -315,7 +317,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Moccasin;
             this.button1.Font = new System.Drawing.Font("Miriam Libre", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(749, 428);
+            this.button1.Location = new System.Drawing.Point(748, 375);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 54);
             this.button1.TabIndex = 18;
@@ -323,12 +325,40 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // BtnOduncIslemleri
+            // 
+            this.BtnOduncIslemleri.BackColor = System.Drawing.Color.Moccasin;
+            this.BtnOduncIslemleri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnOduncIslemleri.Font = new System.Drawing.Font("Miriam Libre", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnOduncIslemleri.Location = new System.Drawing.Point(750, 448);
+            this.BtnOduncIslemleri.Name = "BtnOduncIslemleri";
+            this.BtnOduncIslemleri.Size = new System.Drawing.Size(113, 52);
+            this.BtnOduncIslemleri.TabIndex = 19;
+            this.BtnOduncIslemleri.Text = "Ödünç İşlemleri";
+            this.BtnOduncIslemleri.UseVisualStyleBackColor = false;
+            this.BtnOduncIslemleri.Click += new System.EventHandler(this.BtnOduncIslemleri_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Moccasin;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Font = new System.Drawing.Font("Miriam Libre", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(751, 517);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 52);
+            this.button2.TabIndex = 20;
+            this.button2.Text = "Ödünç Kayıtları";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // FrmPersonelDetay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(1304, 606);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.BtnOduncIslemleri);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -382,5 +412,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnOduncIslemleri;
+        private System.Windows.Forms.Button button2;
     }
 }

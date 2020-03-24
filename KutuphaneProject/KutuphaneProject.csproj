@@ -106,6 +106,18 @@
     <Compile Include="FrmKitapSil.Designer.cs">
       <DependentUpon>FrmKitapSil.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmOduncIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOduncIslemleri.Designer.cs">
+      <DependentUpon>FrmOduncIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOduncKayitlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOduncKayitlari.Designer.cs">
+      <DependentUpon>FrmOduncKayitlari.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPersonelDetay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +135,24 @@
     </Compile>
     <Compile Include="FrmPersonelKayit.Designer.cs">
       <DependentUpon>FrmPersonelKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTedarikci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTedarikci.Designer.cs">
+      <DependentUpon>FrmTedarikci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTedarikciEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTedarikciEkle.Designer.cs">
+      <DependentUpon>FrmTedarikciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTedarikciKayitGetir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTedarikciKayitGetir.Designer.cs">
+      <DependentUpon>FrmTedarikciKayitGetir.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmUyeOl.cs">
       <SubType>Form</SubType>
@@ -181,6 +211,12 @@
     <EmbeddedResource Include="FrmKitapSil.resx">
       <DependentUpon>FrmKitapSil.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmOduncIslemleri.resx">
+      <DependentUpon>FrmOduncIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOduncKayitlari.resx">
+      <DependentUpon>FrmOduncKayitlari.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPersonelDetay.resx">
       <DependentUpon>FrmPersonelDetay.cs</DependentUpon>
     </EmbeddedResource>
@@ -189,6 +225,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPersonelKayit.resx">
       <DependentUpon>FrmPersonelKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTedarikci.resx">
+      <DependentUpon>FrmTedarikci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTedarikciEkle.resx">
+      <DependentUpon>FrmTedarikciEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTedarikciKayitGetir.resx">
+      <DependentUpon>FrmTedarikciKayitGetir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUyeOl.resx">
       <DependentUpon>FrmUyeOl.cs</DependentUpon>

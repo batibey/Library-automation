@@ -36,13 +36,6 @@ namespace KutuphaneProject
 
         private void BtnEkle_Click(object sender, EventArgs e)
         {
-            /*SqlCommand komut = new SqlCommand("insert into Tedarikciler (Adı,Adres,Tel) values (@p1,@p2,@p3)", bgl.baglanti());
-            komut.Parameters.AddWithValue("@p1", TxtAd.Text);
-            komut.Parameters.AddWithValue("@p2", TxtAdres.Text);
-            komut.Parameters.AddWithValue("@p3", MskTel.Text);
-            komut.ExecuteNonQuery();
-            MessageBox.Show("Yeni Kayıt Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            bgl.baglanti().Close();*/
 
             listBox1.Items.Add(TxtAd.Text);
             listBox1.Items.Add(TxtAdres.Text);

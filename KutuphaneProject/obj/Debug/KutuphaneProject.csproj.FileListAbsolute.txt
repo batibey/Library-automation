@@ -22,3 +22,8 @@ C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\Kutuphan
 C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\KutuphaneProject.FrmKitapGuncelle.resources
 C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\KutuphaneProject.FrmErkekKayitGuncelle.resources
 C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\KutuphaneProject.FrmKadinKayitGuncelle.resources
+C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\KutuphaneProject.FrmTedarikci.resources
+C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\KutuphaneProject.FrmTedarikciEkle.resources
+C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\KutuphaneProject.FrmTedarikciKayitGetir.resources
+C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\KutuphaneProject.FrmOduncIslemleri.resources
+C:\Users\Batı\source\repos\KutuphaneProject\KutuphaneProject\obj\Debug\KutuphaneProject.FrmOduncKayitlari.resources
